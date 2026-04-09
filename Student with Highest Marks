@@ -1,0 +1,15 @@
+# Program to find student with highest marks
+
+students = {"A": 80, "B": 95, "C": 78}
+
+max_marks = -1
+top_student = ""
+
+# Loop through dictionary
+for name, marks in students.items():
+    if marks > max_marks:
+        max_marks = marks
+        top_student = name
+
+# Print result
+print("Top student:", top_student)
