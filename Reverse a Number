@@ -1,0 +1,14 @@
+# Program to reverse a number
+
+num = int(input("Enter a number: "))
+
+reverse = 0
+
+# Loop until number becomes 0
+while num > 0:
+    digit = num % 10        # Get last digit
+    reverse = reverse * 10 + digit  # Add digit to reverse
+    num = num // 10         # Remove last digit
+
+# Print reversed number
+print("Reversed Number =", reverse)
