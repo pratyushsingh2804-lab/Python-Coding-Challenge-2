@@ -1,0 +1,15 @@
+# Program to count numbers greater than 50 in a list
+
+numbers = [10, 60, 30, 80]
+
+# Initialize counter
+count = 0
+
+# Loop through list
+for num in numbers:
+    # Check condition
+    if num > 50:
+        count += 1  # Increase counter
+
+# Print result
+print("Count =", count)
