@@ -1,0 +1,14 @@
+# Program to determine ticket price based on day
+
+day = input("Enter day: ")
+
+# Convert to lowercase for easy comparison
+day = day.lower()
+
+# Check day and assign price
+if day == "sunday":
+    print("200")
+elif day == "saturday":
+    print("180")
+else:
+    print("150")
