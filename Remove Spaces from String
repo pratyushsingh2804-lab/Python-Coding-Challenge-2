@@ -1,0 +1,13 @@
+# Program to remove spaces from a string
+
+text = input("Enter a string: ")
+
+result = ""  # Empty string to store result
+
+# Loop through each character
+for ch in text:
+    if ch != " ":  # Ignore spaces
+        result += ch
+
+# Print result
+print("String without spaces:", result)
