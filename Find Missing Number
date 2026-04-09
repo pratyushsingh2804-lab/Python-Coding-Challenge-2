@@ -1,0 +1,16 @@
+# Program to find missing number in sequence
+
+numbers = [1, 2, 4, 5]
+
+n = len(numbers) + 1  # Total numbers including missing
+
+# Sum of first n natural numbers
+expected_sum = n * (n + 1) // 2
+
+# Actual sum of list
+actual_sum = sum(numbers)
+
+# Missing number
+missing = expected_sum - actual_sum
+
+print("Missing number:", missing)
