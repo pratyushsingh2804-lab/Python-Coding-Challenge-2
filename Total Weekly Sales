@@ -1,0 +1,14 @@
+# Program to calculate total weekly sales
+
+# Taking input as list
+sales = [100, 200, 150, 300, 250, 400, 100]
+
+# Initialize total to 0
+total = 0
+
+# Loop through each day's sale
+for amount in sales:
+    total += amount  # Add each value to total
+
+# Print total sales
+print("Total Weekly Sales =", total)
