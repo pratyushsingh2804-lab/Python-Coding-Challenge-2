@@ -1,0 +1,9 @@
+# Program to convert list into tuple
+
+numbers = [1, 2, 3]
+
+# Convert using tuple()
+result = tuple(numbers)
+
+# Print result
+print("Tuple:", result)
