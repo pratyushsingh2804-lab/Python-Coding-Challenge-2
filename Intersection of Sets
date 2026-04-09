@@ -1,0 +1,10 @@
+# Program to find intersection of two sets
+
+set1 = {1, 2}
+set2 = {2, 3}
+
+# Intersection operation
+result = set1.intersection(set2)
+
+# Print result
+print("Intersection:", result)
