@@ -1,0 +1,12 @@
+# Program to calculate factorial of a number
+
+num = int(input("Enter a number: "))
+
+fact = 1  # Initialize factorial as 1
+
+# Loop from 1 to num
+for i in range(1, num + 1):
+    fact *= i  # Multiply each number
+
+# Print result
+print("Factorial =", fact)
