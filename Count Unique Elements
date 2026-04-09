@@ -1,0 +1,13 @@
+# Program to count unique elements in a list
+
+numbers = [1, 1, 2, 3, 3]
+
+unique = []  # Store unique elements
+
+# Loop through list
+for num in numbers:
+    if num not in unique:
+        unique.append(num)
+
+# Print count of unique elements
+print("Unique count:", len(unique))
