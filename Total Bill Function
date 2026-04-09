@@ -1,0 +1,10 @@
+# Function to calculate total bill amount
+
+def total_bill(items):
+    total = 0
+    for price in items:
+        total += price  # Add each item
+    return total
+
+# Example usage
+print(total_bill([100, 200, 300]))
