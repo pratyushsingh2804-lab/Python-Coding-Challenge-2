@@ -1,0 +1,10 @@
+# Program to merge two dictionaries
+
+dict1 = {"a": 1}
+dict2 = {"b": 2}
+
+# Merge using update()
+dict1.update(dict2)
+
+# Print result
+print("Merged dictionary:", dict1)
