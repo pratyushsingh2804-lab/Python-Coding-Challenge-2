@@ -1,0 +1,13 @@
+# Program to find duplicate characters in a string
+
+text = input("Enter a string: ")
+
+duplicates = ""  # Store duplicate characters
+
+# Loop through each character
+for ch in text:
+    if text.count(ch) > 1 and ch not in duplicates:
+        duplicates += ch + " "  # Add duplicate
+
+# Print result
+print("Duplicate characters:", duplicates)
