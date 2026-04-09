@@ -1,0 +1,9 @@
+# Program to rotate list by one position (right rotation)
+
+numbers = [1, 2, 3]
+
+# Take last element and move to front
+rotated = [numbers[-1]] + numbers[:-1]
+
+# Print result
+print("Rotated list:", rotated)
