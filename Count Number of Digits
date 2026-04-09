@@ -1,0 +1,13 @@
+# Program to count number of digits
+
+num = int(input("Enter a number: "))
+
+count = 0  # Initialize counter
+
+# Loop until number becomes 0
+while num > 0:
+    num = num // 10  # Remove last digit
+    count += 1       # Increase count
+
+# Print result
+print("Number of digits =", count)
