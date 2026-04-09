@@ -1,0 +1,14 @@
+# Program to count occurrences of a character
+
+text = input("Enter a string: ")
+char = input("Enter character to count: ")
+
+count = 0  # Initialize counter
+
+# Loop through string
+for ch in text:
+    if ch == char:
+        count += 1  # Increase count
+
+# Print result
+print("Occurrences =", count)
