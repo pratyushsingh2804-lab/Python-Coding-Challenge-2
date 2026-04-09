@@ -1,0 +1,15 @@
+# Program to count frequency of elements
+
+numbers = [1, 2, 2, 3]
+
+freq = {}  # Empty dictionary
+
+# Loop through list
+for num in numbers:
+    if num in freq:
+        freq[num] += 1
+    else:
+        freq[num] = 1
+
+# Print result
+print("Frequency:", freq)
