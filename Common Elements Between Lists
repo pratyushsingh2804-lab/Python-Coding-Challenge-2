@@ -1,0 +1,14 @@
+# Program to find common elements between two lists
+
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+
+common = []  # Store common elements
+
+# Loop through first list
+for num in list1:
+    if num in list2 and num not in common:
+        common.append(num)
+
+# Print result
+print("Common elements:", common)
