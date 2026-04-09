@@ -1,0 +1,15 @@
+# Program to replace vowels with '*'
+
+text = input("Enter a string: ")
+
+result = ""  # Store new string
+
+# Loop through each character
+for ch in text:
+    if ch.lower() in ['a', 'e', 'i', 'o', 'u']:
+        result += '*'  # Replace vowel
+    else:
+        result += ch   # Keep same
+
+# Print result
+print("Modified string:", result)
